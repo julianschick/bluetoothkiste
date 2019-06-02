@@ -161,17 +161,17 @@ Wire Wire Line
 	3550 6950 2950 6950
 Wire Wire Line
 	3550 7050 2950 7050
-Text Label 2950 6650 0    50   ~ 0
-COMMON-RX
-Text Label 2950 6550 0    50   ~ 0
-COMMON-TX
-Text Label 2950 6750 0    50   ~ 0
-FLARM-TX
 Text Label 2950 6850 0    50   ~ 0
-FLARM-RX
-Text Label 2950 6950 0    50   ~ 0
-LX-TX
+COMMON-RX
+Text Label 2950 6750 0    50   ~ 0
+COMMON-TX
+Text Label 2950 6550 0    50   ~ 0
+FLARM-TX
 Text Label 2950 7050 0    50   ~ 0
+FLARM-RX
+Text Label 2950 6650 0    50   ~ 0
+LX-TX
+Text Label 2950 6950 0    50   ~ 0
 LX-RX
 Wire Wire Line
 	3550 5900 3250 5900

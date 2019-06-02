@@ -161,7 +161,7 @@ Wire Wire Line
 	3550 6950 2950 6950
 Wire Wire Line
 	3550 7050 2950 7050
-Text Label 2950 6650 0    50   ~ 0
+Text Label 2950 7050 0    50   ~ 0
 COMMON-RX
 Text Label 2950 6550 0    50   ~ 0
 COMMON-TX
@@ -169,9 +169,9 @@ Text Label 2950 6750 0    50   ~ 0
 FLARM-TX
 Text Label 2950 6850 0    50   ~ 0
 FLARM-RX
-Text Label 2950 6950 0    50   ~ 0
+Text Label 2950 6650 0    50   ~ 0
 LX-TX
-Text Label 2950 7050 0    50   ~ 0
+Text Label 2950 6950 0    50   ~ 0
 LX-RX
 Wire Wire Line
 	3550 5900 3250 5900
@@ -523,10 +523,10 @@ Wire Wire Line
 	8100 4850 8100 5500
 Connection ~ 8100 5500
 $Comp
-L Connector:Screw_Terminal_01x03 J?
+L Connector:Screw_Terminal_01x03 J3
 U 1 1 5CF44711
 P 3750 6650
-F 0 "J?" H 3850 6700 50  0000 L CNN
+F 0 "J3" H 3850 6700 50  0000 L CNN
 F 1 "Screw_Terminal_01x03" H 3850 6600 50  0000 L CNN
 F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type059_RT06303HBWC_1x03_P3.50mm_Horizontal" H 3750 6650 50  0001 C CNN
 F 3 "~" H 3750 6650 50  0001 C CNN
@@ -534,10 +534,10 @@ F 3 "~" H 3750 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x03 J?
+L Connector:Screw_Terminal_01x03 J7
 U 1 1 5CF44F19
 P 3750 6950
-F 0 "J?" H 3850 7000 50  0000 L CNN
+F 0 "J7" H 3850 7000 50  0000 L CNN
 F 1 "Screw_Terminal_01x03" H 3850 6900 50  0000 L CNN
 F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type059_RT06303HBWC_1x03_P3.50mm_Horizontal" H 3750 6950 50  0001 C CNN
 F 3 "~" H 3750 6950 50  0001 C CNN
