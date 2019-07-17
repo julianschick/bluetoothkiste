@@ -31,7 +31,7 @@ U 1 1 5C93D920
 P 3750 6000
 F 0 "J2" H 3850 6050 50  0000 L CNN
 F 1 "Screw_Terminal_01x03" H 3850 5950 50  0000 L CNN
-F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type059_RT06303HBWC_1x03_P3.50mm_Horizontal" H 3750 6000 50  0001 C CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type055_RT01503HDWU_1x03_P5.00mm_Horizontal" H 3750 6000 50  0001 C CNN
 F 3 "~" H 3750 6000 50  0001 C CNN
 	1    3750 6000
 	1    0    0    -1  
@@ -486,7 +486,7 @@ U 1 1 5D2F7C66
 P 6700 4850
 F 0 "J5" H 6757 5317 50  0000 C CNN
 F 1 "USB_A" H 6757 5226 50  0000 C CNN
-F 2 "" H 6850 4800 50  0001 C CNN
+F 2 "JS_Local:USB_A_UPRIGHT_SEGOR" H 6850 4800 50  0001 C CNN
 F 3 " ~" H 6850 4800 50  0001 C CNN
 	1    6700 4850
 	1    0    0    -1  
@@ -541,7 +541,7 @@ U 1 1 5D378146
 P 4700 2700
 F 0 "JP1" H 4700 2964 50  0000 C CNN
 F 1 "Jumper" H 4700 2873 50  0000 C CNN
-F 2 "" H 4700 2700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4700 2700 50  0001 C CNN
 F 3 "~" H 4700 2700 50  0001 C CNN
 	1    4700 2700
 	1    0    0    -1  

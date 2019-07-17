@@ -9,6 +9,8 @@ Teileliste SEGOR
 - 1 x Sicherungshalter: RSI-Halter/LP
 - 1 x Sicherung: RSI 2,0 A F oder RSI 2,0 A T (flink/träge)
 - 3 x Schraubklemmen: ARK 3-Lift/RM3,5
+ARK 3-Lift (RM5)
+
 - 2 x Kondensator 10u, Pinabstand 5mm: 10u-R5.0-X7R/25V
 - 5 x Kondensator 1u, SMD-Bauform 1206 (3216 metrisch): 1u0-1206-X7R/50V
 - 1 x Pinheader Female (4 Pins, 90°): FLLAB 1x36-90G
