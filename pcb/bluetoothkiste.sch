@@ -39,13 +39,13 @@ $EndComp
 $Comp
 L Connector:RJ45 J4
 U 1 1 5C93DA28
-P 4100 4850
-F 0 "J4" H 3770 4854 50  0000 R CNN
-F 1 "RJ45" H 3770 4945 50  0000 R CNN
-F 2 "JS_Local:RJ45_SEGOR" V 4100 4875 50  0001 C CNN
-F 3 "~" V 4100 4875 50  0001 C CNN
-	1    4100 4850
-	-1   0    0    1   
+P 3300 4950
+F 0 "J4" H 2970 4954 50  0000 R CNN
+F 1 "RJ45" H 2970 5045 50  0000 R CNN
+F 2 "JS_Local:RJ45_SEGOR" V 3300 4975 50  0001 C CNN
+F 3 "~" V 3300 4975 50  0001 C CNN
+	1    3300 4950
+	1    0    0    -1  
 $EndComp
 $Comp
 L Regulator_Linear:L7805 U1
@@ -111,37 +111,18 @@ HC-06 (FLARM)
 Wire Wire Line
 	1700 5300 1400 5300
 Wire Wire Line
-	3700 5250 3400 5250
+	3900 5150 3900 5250
 Wire Wire Line
-	3700 5150 3400 5150
-Wire Wire Line
-	3400 5150 3400 5250
-Wire Wire Line
-	3700 4850 3400 4850
-Wire Wire Line
-	3400 4850 3400 5150
-Connection ~ 3400 5150
+	3900 4850 3900 5150
+Connection ~ 3900 5150
 NoConn ~ 3700 4750
-Wire Wire Line
-	3700 4650 3600 4650
-Wire Wire Line
-	3700 4550 3600 4550
-Wire Wire Line
-	3600 4550 3600 4650
-Connection ~ 3600 4650
-Wire Wire Line
-	3600 4650 3400 4650
-Wire Wire Line
-	3700 4950 2750 4950
-Text Label 2750 4950 0    50   ~ 0
+Text Label 4150 4950 0    50   ~ 0
 FLARM-TX
-Wire Wire Line
-	3700 5050 2750 5050
-Text Label 2750 5050 0    50   ~ 0
+Text Label 4150 5050 0    50   ~ 0
 FLARM-RX
 Wire Wire Line
 	750  4900 1700 4900
-Text Label 750  4900 0    50   ~ 0
+Text Label 750  4700 0    50   ~ 0
 LX-TX
 NoConn ~ 1700 4500
 NoConn ~ 1700 4600
@@ -189,7 +170,7 @@ F 3 "" H 3250 6100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Notes 2950 6350 0    50   ~ 0
-+12P = Geschaltete 12V, um die Bluetooth-Module\nausschalten zu können
++12P = Stromversorgung Bluetooth-Module (intern abgesichert)\n+12V = Stromversorgung FLARM (intern nicht abgesichert)
 $Comp
 L Interface_UART:MAX232 U2
 U 1 1 5C9C01BB
@@ -210,11 +191,8 @@ Connection ~ 4850 5500
 Wire Wire Line
 	4850 5500 5400 5500
 Wire Wire Line
-	3400 5250 3400 5500
-Connection ~ 3400 5250
-Connection ~ 3400 5500
-Wire Wire Line
-	3400 5500 4850 5500
+	3900 5250 3900 5500
+Connection ~ 3900 5250
 Wire Wire Line
 	9550 6200 9550 6100
 Wire Wire Line
@@ -231,21 +209,18 @@ F 3 "" H 750 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4550 4300 3400 4300
+	4550 4300 3900 4300
 Wire Wire Line
-	3400 4650 3400 4300
-Connection ~ 3400 4300
-Wire Wire Line
-	3400 4300 750  4300
+	3900 4650 3900 4550
 $Comp
 L power:+12V #PWR0106
 U 1 1 5CA1F7A5
-P 4550 4300
-F 0 "#PWR0106" H 4550 4150 50  0001 C CNN
-F 1 "+12V" H 4565 4473 50  0000 C CNN
-F 2 "" H 4550 4300 50  0001 C CNN
-F 3 "" H 4550 4300 50  0001 C CNN
-	1    4550 4300
+P 4400 2300
+F 0 "#PWR0106" H 4400 2150 50  0001 C CNN
+F 1 "+12V" H 4415 2473 50  0000 C CNN
+F 2 "" H 4400 2300 50  0001 C CNN
+F 3 "" H 4400 2300 50  0001 C CNN
+	1    4400 2300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -259,7 +234,7 @@ F 3 "" H 750 4300 50  0001 C CNN
 	1    750  4300
 	1    0    0    -1  
 $EndComp
-Text Label 750  4700 0    50   ~ 0
+Text Label 750  4900 0    50   ~ 0
 LX-RX
 Wire Wire Line
 	750  4700 1700 4700
@@ -279,8 +254,6 @@ Wire Wire Line
 Wire Wire Line
 	1400 5300 1400 5500
 Connection ~ 1400 5500
-Wire Wire Line
-	1400 5500 3400 5500
 Text Label 8150 5400 0    50   ~ 0
 LX-BT-RX
 Text Label 8150 5000 0    50   ~ 0
@@ -401,12 +374,12 @@ Connection ~ 5800 5500
 $Comp
 L power:+12P #PWR0110
 U 1 1 5C941CC9
-P 4850 3850
-F 0 "#PWR0110" H 4850 3700 50  0001 C CNN
-F 1 "+12P" H 4865 4023 50  0000 C CNN
-F 2 "" H 4850 3850 50  0001 C CNN
-F 3 "" H 4850 3850 50  0001 C CNN
-	1    4850 3850
+P 5000 2300
+F 0 "#PWR0110" H 5000 2150 50  0001 C CNN
+F 1 "+12P" H 5015 2473 50  0000 C CNN
+F 2 "" H 5000 2300 50  0001 C CNN
+F 3 "" H 5000 2300 50  0001 C CNN
+	1    5000 2300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -422,8 +395,6 @@ F 3 "~" H 4850 4050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4850 4200 4850 4300
-Wire Wire Line
-	4850 3900 4850 3850
 $Comp
 L Connector:Conn_01x04_Female J3
 U 1 1 5D01F109
@@ -506,7 +477,93 @@ FLARM-RX
 Text Label 10350 5000 0    50   ~ 0
 LX-RX
 Wire Wire Line
-	5800 4300 7900 4300
+	5800 4300 7250 4300
 Wire Wire Line
-	5800 5500 7800 5500
+	5800 5500 6600 5500
+$Comp
+L Connector:USB_A J5
+U 1 1 5D2F7C66
+P 6700 4850
+F 0 "J5" H 6757 5317 50  0000 C CNN
+F 1 "USB_A" H 6757 5226 50  0000 C CNN
+F 2 "" H 6850 4800 50  0001 C CNN
+F 3 " ~" H 6850 4800 50  0001 C CNN
+	1    6700 4850
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7000 4850
+NoConn ~ 7000 4950
+Wire Wire Line
+	7000 4650 7250 4650
+Wire Wire Line
+	7250 4650 7250 4300
+Connection ~ 7250 4300
+Wire Wire Line
+	7250 4300 7900 4300
+Wire Wire Line
+	6700 5250 6700 5500
+Connection ~ 6700 5500
+Wire Wire Line
+	6700 5500 7800 5500
+Wire Wire Line
+	6600 5250 6600 5500
+Connection ~ 6600 5500
+Wire Wire Line
+	6600 5500 6700 5500
+Connection ~ 3900 5500
+Wire Wire Line
+	3900 5500 4850 5500
+Wire Wire Line
+	1400 5500 3900 5500
+Connection ~ 3900 4300
+Wire Wire Line
+	750  4300 3900 4300
+Wire Wire Line
+	3900 5150 3700 5150
+Wire Wire Line
+	3700 5250 3900 5250
+Wire Wire Line
+	3900 4850 3700 4850
+Wire Wire Line
+	3900 4650 3700 4650
+Wire Wire Line
+	3700 4550 3900 4550
+Connection ~ 3900 4550
+Wire Wire Line
+	3900 4550 3900 4300
+Wire Wire Line
+	3700 4950 4150 4950
+Wire Wire Line
+	3700 5050 4150 5050
+$Comp
+L Device:Jumper JP1
+U 1 1 5D378146
+P 4700 2700
+F 0 "JP1" H 4700 2964 50  0000 C CNN
+F 1 "Jumper" H 4700 2873 50  0000 C CNN
+F 2 "" H 4700 2700 50  0001 C CNN
+F 3 "~" H 4700 2700 50  0001 C CNN
+	1    4700 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 2700 5000 3400
+Wire Wire Line
+	5000 3400 4850 3400
+Wire Wire Line
+	4400 2300 4400 2700
+Wire Wire Line
+	4850 3400 4850 3900
+Wire Wire Line
+	5000 2700 5000 2300
+Connection ~ 5000 2700
+Wire Wire Line
+	4400 2700 4400 3400
+Wire Wire Line
+	4400 3400 4550 3400
+Wire Wire Line
+	4550 3400 4550 4300
+Connection ~ 4400 2700
+Text Notes 2450 2900 0    50   ~ 0
+Jumper zum Verbinden der  Stromversorgung \nder Bluetooth-Module und des FLARM. \nFalls man nicht getrennt ein- und ausschalten\nmöchte kann man diesen Jumper setzen.
 $EndSCHEMATC
