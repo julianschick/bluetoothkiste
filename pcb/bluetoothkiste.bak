@@ -31,7 +31,7 @@ U 1 1 5C93D920
 P 3750 6000
 F 0 "J2" H 3850 6050 50  0000 L CNN
 F 1 "Screw_Terminal_01x03" H 3850 5950 50  0000 L CNN
-F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type059_RT06303HBWC_1x03_P3.50mm_Horizontal" H 3750 6000 50  0001 C CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type055_RT01503HDWU_1x03_P5.00mm_Horizontal" H 3750 6000 50  0001 C CNN
 F 3 "~" H 3750 6000 50  0001 C CNN
 	1    3750 6000
 	1    0    0    -1  
@@ -132,10 +132,6 @@ NoConn ~ 1700 5100
 NoConn ~ 1700 5200
 Wire Wire Line
 	3550 5900 3250 5900
-Wire Wire Line
-	3550 6000 3250 6000
-Wire Wire Line
-	3550 6100 3250 6100
 $Comp
 L power:GND #PWR0102
 U 1 1 5C95B9F2
@@ -150,26 +146,26 @@ $EndComp
 $Comp
 L power:+12V #PWR0103
 U 1 1 5C95BA3F
-P 3250 6000
-F 0 "#PWR0103" H 3250 5850 50  0001 C CNN
-F 1 "+12V" V 3265 6128 50  0000 L CNN
-F 2 "" H 3250 6000 50  0001 C CNN
-F 3 "" H 3250 6000 50  0001 C CNN
-	1    3250 6000
+P 2150 6000
+F 0 "#PWR0103" H 2150 5850 50  0001 C CNN
+F 1 "+12V" V 2165 6128 50  0000 L CNN
+F 2 "" H 2150 6000 50  0001 C CNN
+F 3 "" H 2150 6000 50  0001 C CNN
+	1    2150 6000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+12P #PWR0104
 U 1 1 5C95BA9E
-P 3250 6100
-F 0 "#PWR0104" H 3250 5950 50  0001 C CNN
-F 1 "+12P" V 3265 6227 50  0000 L CNN
-F 2 "" H 3250 6100 50  0001 C CNN
-F 3 "" H 3250 6100 50  0001 C CNN
-	1    3250 6100
+P 2150 6100
+F 0 "#PWR0104" H 2150 5950 50  0001 C CNN
+F 1 "+12P" V 2165 6227 50  0000 L CNN
+F 2 "" H 2150 6100 50  0001 C CNN
+F 3 "" H 2150 6100 50  0001 C CNN
+	1    2150 6100
 	0    -1   -1   0   
 $EndComp
-Text Notes 2950 6350 0    50   ~ 0
+Text Notes 1650 6650 0    50   ~ 0
 +12P = Stromversorgung Bluetooth-Module (intern abgesichert)\n+12V = Stromversorgung FLARM (intern nicht abgesichert)
 $Comp
 L Interface_UART:MAX232 U2
@@ -566,4 +562,34 @@ Wire Wire Line
 Connection ~ 4400 2700
 Text Notes 2450 2900 0    50   ~ 0
 Jumper zum Verbinden der  Stromversorgung \nder Bluetooth-Module und des FLARM. \nFalls man nicht getrennt ein- und ausschalten\nmöchte kann man diesen Jumper setzen.
+$Comp
+L Device:D D?
+U 1 1 5D40CFDE
+P 2750 6100
+F 0 "D?" H 2750 5900 50  0000 C CNN
+F 1 "D" H 2750 6000 50  0000 C CNN
+F 2 "" H 2750 6100 50  0001 C CNN
+F 3 "~" H 2750 6100 50  0001 C CNN
+	1    2750 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5D41055A
+P 2450 6000
+F 0 "D?" H 2450 6216 50  0000 C CNN
+F 1 "D" H 2450 6125 50  0000 C CNN
+F 2 "" H 2450 6000 50  0001 C CNN
+F 3 "~" H 2450 6000 50  0001 C CNN
+	1    2450 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 6000 3550 6000
+Wire Wire Line
+	2300 6000 2150 6000
+Wire Wire Line
+	2150 6100 2600 6100
+Wire Wire Line
+	2900 6100 3550 6100
 $EndSCHEMATC
