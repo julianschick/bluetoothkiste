@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:bluetoothkiste-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -20,7 +20,7 @@ U 1 1 5C93D289
 P 6750 3150
 F 0 "J6" H 6700 3500 50  0000 L CNN
 F 1 "Conn_01x04_Female" H 6400 3400 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6750 3150 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Horizontal" H 6750 3150 50  0001 C CNN
 F 3 "~" H 6750 3150 50  0001 C CNN
 	1    6750 3150
 	-1   0    0    1   
@@ -397,7 +397,7 @@ U 1 1 5D01F109
 P 6750 2250
 F 0 "J3" H 6700 2600 50  0000 L CNN
 F 1 "Conn_01x04_Female" H 6400 2500 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6750 2250 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Horizontal" H 6750 2250 50  0001 C CNN
 F 3 "~" H 6750 2250 50  0001 C CNN
 	1    6750 2250
 	-1   0    0    1   

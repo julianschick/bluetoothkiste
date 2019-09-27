@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source /home/julian/akaflieg/bluetoothkiste/pcb/bluetoothkiste.sch)
-    (date "Di 30 Jul 2019 20:57:56 CEST")
-    (tool "Eeschema 5.1.2")
+    (date "Fr 27 Sep 2019 21:53:55 CEST")
+    (tool "Eeschema 5.1.4")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title)
@@ -17,7 +17,7 @@
   (components
     (comp (ref J6)
       (value Conn_01x04_Female)
-      (footprint Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Horizontal)
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical)
       (datasheet ~)
       (libsource (lib Connector) (part Conn_01x04_Female) (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
@@ -115,7 +115,7 @@
       (tstamp 5C9D0C23))
     (comp (ref J3)
       (value Conn_01x04_Female)
-      (footprint Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Horizontal)
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical)
       (datasheet ~)
       (libsource (lib Connector) (part Conn_01x04_Female) (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /) (tstamps /))
