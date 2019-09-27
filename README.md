@@ -16,6 +16,7 @@ Mit passenden Artikelbezeichnungen für den Berliner Elektroteilehändler [Segor
 * 1 x Schraubklemmen: ARK 3 (RM 5mm)
 * 2 x Kondensator 10u, Pinabstand 5mm: 10u-R5.0-X7R/25V
 * 5 x Kondensator 1u, SMD-Bauform 1206 (3216 metrisch): 1u0-1206-X7R/50V
+* 2 x Diode: 1N 5062
 
 * 2 x Bluetooth-Modul: Bluetooth-Modul (HC06) [günstiger bei eBay!]
 * Pinheader (je nach Anbringung der Bluetooth-Module)
