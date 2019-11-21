@@ -9,7 +9,7 @@ Mit passenden Artikelbezeichnungen für den Berliner Elektroteilehändler [Segor
 * 1 x USB-Buchse: USB-A BU/V
 * 1 x RJ45-Buchse: 8P8C-BU/S 14mm
 * 1 x RS232-Converter: MAX 232 N
-* 1 x D-Sub-9-Buchse: DS09M-90°-10mm
+* 1 x D-Sub-9-Buchse: DS09F-90°-10mm
 * 1 x Schaltregler: R-78 5.0-1.0
 * 1 x Sicherungshalter: RSI-Halter/LP
 * 1 x Sicherung: RSI 2,0 A F oder RSI 2,0 A T (flink/träge)
