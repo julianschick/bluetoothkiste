@@ -23,7 +23,7 @@ Mit passenden Artikelbezeichnungen für den Berliner Elektroteilehändler [Segor
 
 ## Wichtige Hinweise
 
-* Die Bluetooth-Module können auf verschiedene Arten angebracht werden. Dasjenige für das FLARM kann mit liegenden Pinheadern direkt auf der Platine liegen. Das fürs LX passt so nicht auf die Platine und muss etwas erhöht montiert werden. Man kann zum Beispiel einfach aufrechte Female-Pinheader auflöten und das Modul mit Male-Pinheadern versehen und dann reinstecken. Macht man es so, wird das Modul vom Gehäusedeckel etwas vorgespannt. Man kann natürlich auch beide Module direkt in verschiedener Höhe dranlöten. Wie man es dreht und wendet: Es ist sinnvoll, Bluetooth-Module ohne bereits vorgelötetet Header zu kaufen. Dann kann man sich noch entscheiden, wie genau man es machen will
+* Die Bluetooth-Module können, wenn sie mit vertikalen Pinheader versehen sind, direkt reingesteckt werden (auf der Platine auch vertikale Pinheader anbringen). Sie sind dann vom Gehäusedeckel etwas vorgespannt. Bei eBay bekommt man i.d.R. Module mit 90° abgewinkelten Pinheader, diese kann man aber einfach umbiegen.
 * Die Stromversorgung der Bluetooth-Module und des FLARM kann zusammengeschaltet werden per Jumper, wenn man nicht getrennt ein- und ausschalten möchte.
 * Das FLARM muss extern abgesichert werden! Intern sind nur die Bluetooth-Module abgesichert.
 * Darauf achten, den Schaltregler richtig herum zu montieren. Genauso den RS232-Chip.
