@@ -5,21 +5,22 @@ Bluetooth-Box für Segelflugzeuge zur Kommunikation zwischen Smartphone (mit bei
 
 Mit passenden Artikelbezeichnungen für den Berliner Elektroteilehändler [Segor](https://www.segor.de).
 
-* 1 x Gehäuse: PP41 sw
-* 1 x USB-Buchse: USB-A BU/V
-* 1 x RJ45-Buchse: 8P8C-BU/S 14mm
-* 1 x RS232-Converter: MAX 232 N
-* 1 x D-Sub-9-Buchse: DS09F-90°-10mm
-* 1 x Schaltregler: R-78 5.0-1.0
-* 1 x Sicherungshalter: RSI-Halter/LP
-* 1 x Sicherung: RSI 2,0 A F oder RSI 2,0 A T (flink/träge)
-* 1 x Schraubklemmen: ARK 3 (RM 5mm)
-* 2 x Kondensator 10u, Pinabstand 5mm: 10u-R5.0-X7R/25V
-* 5 x Kondensator 1u, SMD-Bauform 1206 (3216 metrisch): 1u0-1206-X7R/50V
-* 2 x Diode: 1N 5062
-
-* 2 x Bluetooth-Modul: Bluetooth-Modul (HC06) [günstiger bei eBay!]
-* Pinheader (je nach Anbringung der Bluetooth-Module)
+Anzahl | Beschreibung | Segor-Artikelbezeichnung
+--|--|--
+1 | Gehäuse | *PP41 sw*
+1 | USB-Buchse | *USB-A BU/V*
+1 | RJ45-Buchse | *8P8C-BU/S 14mm*
+1 | RS232-Converter | *MAX 232 N*
+1 | D-Sub-9-Buchse | *DS09F-90°-10mm*
+1 | Schaltregler | *R-78 5.0-1.0*
+1 | Sicherungshalter | *RSI-Halter/LP*
+1 | Sicherung | *RSI 2,0 A F oder RSI 2,0 A T (flink/träge)*
+1 | Schraubklemmen | *ARK 3 (RM 5mm)*
+2 | Kondensator 10u, Pinabstand 5mm | *10u-R5.0-X7R/25V*
+5 | Kondensator 1u, SMD-Bauform 1206 (3216 metrisch) | *1u0-1206-X7R/50V*
+2 | Diode | *1N 5062*
+2 | Bluetooth-Modul | *Bluetooth-Modul (HC06)* [günstiger bei eBay!]
+div. | Pinheader (je nach Anbringung der Bluetooth-Module)
 
 ## Wichtige Hinweise
 
