@@ -8,15 +8,15 @@ Mit passenden Artikelbezeichnungen für den Berliner Elektroteilehändler [Segor
 Anzahl | Beschreibung | Segor-Artikelbezeichnung
 --|--|--
 1 | Gehäuse | *PP41 sw*
-1 | USB-Buchse | *USB-A BU/V*
-1 | RJ45-Buchse | *8P8C-BU/S 14mm*
+1 | USB-A-Buchse für Printmontage | *USB-A BU/V*
+1 | RJ45-Buchse für Printmontage | *8P8C-BU/S 14mm*
 1 | RS232-Converter | *MAX 232 N*
-1 | D-Sub-9-Buchse | *DS09F-90°-10mm*
+1 | D-Sub Buchse 9-polig, Printmontage 90°, Abstand Pinreihe zu Steckerfläche 10mm | *DS09F-90°-10mm*
 1 | Schaltregler | *R-78 5.0-1.0*
-1 | Sicherungshalter | *RSI-Halter/LP*
-1 | Sicherung | *RSI 2,0 A F oder RSI 2,0 A T (flink/träge)*
-1 | Schraubklemmen | *ARK 3 (RM 5mm)*
-2 | Kondensator 10u, Pinabstand 5mm | *10u-R5.0-X7R/25V*
+1 | Sicherungshalter für Rundsicherungen, RM 5mm | *RSI-Halter/LP*
+1 | Rundsicherung, RM 5mm | *RSI 2,0 A F oder RSI 2,0 A T (flink/träge)*
+1 | Schraubklemmen, RM 5mm | *ARK 3 (RM 5mm)*
+2 | Kondensator 10u, RM 5mm | *10u-R5.0-X7R/25V*
 5 | Kondensator 1u, SMD-Bauform 1206 (3216 metrisch) | *1u0-1206-X7R/50V*
 2 | Diode | *1N 5062*
 2 | Bluetooth-Modul | *Bluetooth-Modul (HC06)* [günstiger bei eBay!]
