@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:bluetoothkiste-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -28,12 +27,12 @@ $EndComp
 $Comp
 L Connector:Screw_Terminal_01x03 J2
 U 1 1 5C93D920
-P 3750 6000
-F 0 "J2" H 3850 6050 50  0000 L CNN
-F 1 "Screw_Terminal_01x03" H 3850 5950 50  0000 L CNN
-F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type055_RT01503HDWU_1x03_P5.00mm_Horizontal" H 3750 6000 50  0001 C CNN
-F 3 "~" H 3750 6000 50  0001 C CNN
-	1    3750 6000
+P 2950 1100
+F 0 "J2" H 3050 1150 50  0000 L CNN
+F 1 "Screw_Terminal_01x03" H 3050 1050 50  0000 L CNN
+F 2 "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type055_RT01503HDWU_1x03_P5.00mm_Horizontal" H 2950 1100 50  0001 C CNN
+F 3 "~" H 2950 1100 50  0001 C CNN
+	1    2950 1100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -116,14 +115,10 @@ Wire Wire Line
 	3900 4850 3900 5150
 Connection ~ 3900 5150
 NoConn ~ 3700 4750
-Text Label 4150 4950 0    50   ~ 0
-FLARM-TX
-Text Label 4150 5050 0    50   ~ 0
-FLARM-RX
 Wire Wire Line
-	750  4900 1700 4900
+	750  4900 1200 4900
 Text Label 750  4700 0    50   ~ 0
-LX-TX
+PIN2
 NoConn ~ 1700 4500
 NoConn ~ 1700 4600
 NoConn ~ 1700 4800
@@ -131,53 +126,42 @@ NoConn ~ 1700 5000
 NoConn ~ 1700 5100
 NoConn ~ 1700 5200
 Wire Wire Line
-	3550 5900 3250 5900
+	2750 1000 2450 1000
 $Comp
 L power:GND #PWR0102
 U 1 1 5C95B9F2
-P 3250 5900
-F 0 "#PWR0102" H 3250 5650 50  0001 C CNN
-F 1 "GND" V 3255 5772 50  0000 R CNN
-F 2 "" H 3250 5900 50  0001 C CNN
-F 3 "" H 3250 5900 50  0001 C CNN
-	1    3250 5900
+P 2450 1000
+F 0 "#PWR0102" H 2450 750 50  0001 C CNN
+F 1 "GND" V 2455 872 50  0000 R CNN
+F 2 "" H 2450 1000 50  0001 C CNN
+F 3 "" H 2450 1000 50  0001 C CNN
+	1    2450 1000
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+12V #PWR0103
 U 1 1 5C95BA3F
-P 2150 6000
-F 0 "#PWR0103" H 2150 5850 50  0001 C CNN
-F 1 "+12V" V 2165 6128 50  0000 L CNN
-F 2 "" H 2150 6000 50  0001 C CNN
-F 3 "" H 2150 6000 50  0001 C CNN
-	1    2150 6000
+P 1350 1100
+F 0 "#PWR0103" H 1350 950 50  0001 C CNN
+F 1 "+12V" V 1365 1228 50  0000 L CNN
+F 2 "" H 1350 1100 50  0001 C CNN
+F 3 "" H 1350 1100 50  0001 C CNN
+	1    1350 1100
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+12P #PWR0104
 U 1 1 5C95BA9E
-P 2150 6100
-F 0 "#PWR0104" H 2150 5950 50  0001 C CNN
-F 1 "+12P" V 2165 6227 50  0000 L CNN
-F 2 "" H 2150 6100 50  0001 C CNN
-F 3 "" H 2150 6100 50  0001 C CNN
-	1    2150 6100
+P 1350 1200
+F 0 "#PWR0104" H 1350 1050 50  0001 C CNN
+F 1 "+12P" V 1365 1327 50  0000 L CNN
+F 2 "" H 1350 1200 50  0001 C CNN
+F 3 "" H 1350 1200 50  0001 C CNN
+	1    1350 1200
 	0    -1   -1   0   
 $EndComp
-Text Notes 1650 6650 0    50   ~ 0
+Text Notes 850  1750 0    50   ~ 0
 +12P = Stromversorgung Bluetooth-Module (intern abgesichert)\n+12V = Stromversorgung FLARM (intern nicht abgesichert)
-$Comp
-L Interface_UART:MAX232 U2
-U 1 1 5C9C01BB
-P 9550 4900
-F 0 "U2" H 9900 6100 50  0000 C CNN
-F 1 "MAX232" H 10000 6000 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 9600 3850 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/max232.pdf" H 9550 5000 50  0001 C CNN
-	1    9550 4900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5400 4600 5400 5500
 Connection ~ 5400 5500
@@ -231,9 +215,9 @@ F 3 "" H 750 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 750  4900 0    50   ~ 0
-LX-RX
+PIN3
 Wire Wire Line
-	750  4700 1700 4700
+	750  4700 1100 4700
 $Comp
 L Connector:DB9_Female J1
 U 1 1 5C9518E6
@@ -464,14 +448,6 @@ Text Label 8150 5200 0    50   ~ 0
 FLARM-BT-TX
 Text Label 8150 5600 0    50   ~ 0
 FLARM-BT-RX
-Text Label 10350 5400 0    50   ~ 0
-LX-TX
-Text Label 10350 5600 0    50   ~ 0
-FLARM-TX
-Text Label 10350 5200 0    50   ~ 0
-FLARM-RX
-Text Label 10350 5000 0    50   ~ 0
-LX-RX
 Wire Wire Line
 	5800 4300 7250 4300
 Wire Wire Line
@@ -528,8 +504,6 @@ Connection ~ 3900 4550
 Wire Wire Line
 	3900 4550 3900 4300
 Wire Wire Line
-	3700 4950 4150 4950
-Wire Wire Line
 	3700 5050 4150 5050
 $Comp
 L Device:Jumper JP1
@@ -565,31 +539,145 @@ Jumper zum Verbinden der  Stromversorgung \nder Bluetooth-Module und des FLARM. 
 $Comp
 L Device:D D2
 U 1 1 5D40CFDE
-P 2750 6100
-F 0 "D2" H 2750 5900 50  0000 C CNN
-F 1 "D" H 2750 6000 50  0000 C CNN
-F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 2750 6100 50  0001 C CNN
-F 3 "~" H 2750 6100 50  0001 C CNN
-	1    2750 6100
+P 1950 1200
+F 0 "D2" H 1950 1000 50  0000 C CNN
+F 1 "D" H 1950 1100 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 1950 1200 50  0001 C CNN
+F 3 "~" H 1950 1200 50  0001 C CNN
+	1    1950 1200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D1
 U 1 1 5D41055A
-P 2450 6000
-F 0 "D1" H 2450 6216 50  0000 C CNN
-F 1 "D" H 2450 6125 50  0000 C CNN
-F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 2450 6000 50  0001 C CNN
-F 3 "~" H 2450 6000 50  0001 C CNN
-	1    2450 6000
+P 1650 1100
+F 0 "D1" H 1650 1316 50  0000 C CNN
+F 1 "D" H 1650 1225 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P7.62mm_Horizontal" H 1650 1100 50  0001 C CNN
+F 3 "~" H 1650 1100 50  0001 C CNN
+	1    1650 1100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2600 6000 3550 6000
+	1800 1100 2750 1100
 Wire Wire Line
-	2300 6000 2150 6000
+	1500 1100 1350 1100
 Wire Wire Line
-	2150 6100 2600 6100
+	1350 1200 1800 1200
 Wire Wire Line
-	2900 6100 3550 6100
+	2100 1200 2750 1200
+Wire Wire Line
+	5250 6400 4950 6400
+Wire Wire Line
+	4150 6400 4150 5050
+$Comp
+L Device:Jumper JP2
+U 1 1 5E59F58A
+P 4650 6400
+F 0 "JP2" H 4650 6600 50  0000 C CNN
+F 1 "Jumper" H 4650 6700 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 4650 6400 50  0001 C CNN
+F 3 "~" H 4650 6400 50  0001 C CNN
+	1    4650 6400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4250 6300 4250 4950
+Wire Wire Line
+	3700 4950 4250 4950
+Text GLabel 5250 6400 2    50   Input ~ 0
+FLARM-RX
+Text GLabel 5250 6300 2    50   Input ~ 0
+FLARM-TX
+Text GLabel 10350 5200 2    50   Input ~ 0
+FLARM-RX
+Text GLabel 10350 5600 2    50   Input ~ 0
+FLARM-TX
+Text Notes 4500 7150 0    50   ~ 0
+Wenn mehrere Boxen an einem \nFLARM-Gerät hängen, kann\nman einer Box hier TX blockieren\n(andernfalls funktioniert es nicht).
+Wire Wire Line
+	4350 6400 4150 6400
+Wire Wire Line
+	4250 6300 5250 6300
+Text GLabel 10350 5400 2    50   Input ~ 0
+LX-TX
+$Comp
+L Interface_UART:MAX232 U2
+U 1 1 5C9C01BB
+P 9550 4900
+F 0 "U2" H 9900 6100 50  0000 C CNN
+F 1 "MAX232" H 10000 6000 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 9600 3850 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/max232.pdf" H 9550 5000 50  0001 C CNN
+	1    9550 4900
+	1    0    0    -1  
+$EndComp
+Text GLabel 10350 5000 2    50   Input ~ 0
+LX-RX
+$Comp
+L Connector_Generic:Conn_01x03 J7
+U 1 1 5E5AD872
+P 1900 6400
+F 0 "J7" V 1772 6580 50  0000 L CNN
+F 1 "Conn_01x03" V 1863 6580 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 1900 6400 50  0001 C CNN
+F 3 "~" H 1900 6400 50  0001 C CNN
+	1    1900 6400
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J8
+U 1 1 5E5AE2E4
+P 1900 6950
+F 0 "J8" V 1772 7130 50  0000 L CNN
+F 1 "Conn_01x03" V 1863 7130 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 1900 6950 50  0001 C CNN
+F 3 "~" H 1900 6950 50  0001 C CNN
+	1    1900 6950
+	0    1    1    0   
+$EndComp
+Text GLabel 3000 6100 2    50   Input ~ 0
+LX-RX
+Text GLabel 3000 6650 2    50   Input ~ 0
+LX-TX
+Wire Wire Line
+	1900 6100 1900 6200
+Wire Wire Line
+	1900 6100 3000 6100
+Wire Wire Line
+	1900 6650 1900 6750
+Wire Wire Line
+	1900 6650 3000 6650
+Wire Wire Line
+	2000 6750 2000 6550
+Wire Wire Line
+	2000 6550 1200 6550
+Wire Wire Line
+	1200 6550 1200 6000
+Wire Wire Line
+	2000 6200 2000 6000
+Wire Wire Line
+	2000 6000 1200 6000
+Connection ~ 1200 6000
+Wire Wire Line
+	1800 6750 1800 6650
+Wire Wire Line
+	1800 6650 1100 6650
+Wire Wire Line
+	1100 6650 1100 6100
+Wire Wire Line
+	1800 6200 1800 6100
+Wire Wire Line
+	1800 6100 1100 6100
+Connection ~ 1100 6100
+Wire Wire Line
+	1200 4900 1200 6000
+Connection ~ 1200 4900
+Wire Wire Line
+	1200 4900 1700 4900
+Wire Wire Line
+	1100 4700 1100 6100
+Connection ~ 1100 4700
+Wire Wire Line
+	1100 4700 1700 4700
 $EndSCHEMATC
