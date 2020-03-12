@@ -19,7 +19,7 @@ U 1 1 5C93D289
 P 6750 3150
 F 0 "J6" H 6700 3500 50  0000 L CNN
 F 1 "Conn_01x04_Female" H 6400 3400 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6750 3150 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 6750 3150 50  0001 C CNN
 F 3 "~" H 6750 3150 50  0001 C CNN
 	1    6750 3150
 	-1   0    0    1   
@@ -381,7 +381,7 @@ U 1 1 5D01F109
 P 6750 2250
 F 0 "J3" H 6700 2600 50  0000 L CNN
 F 1 "Conn_01x04_Female" H 6400 2500 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6750 2250 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 6750 2250 50  0001 C CNN
 F 3 "~" H 6750 2250 50  0001 C CNN
 	1    6750 2250
 	-1   0    0    1   
@@ -576,7 +576,7 @@ U 1 1 5E59F58A
 P 4650 6400
 F 0 "JP2" H 4650 6600 50  0000 C CNN
 F 1 "Jumper" H 4650 6700 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 4650 6400 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4650 6400 50  0001 C CNN
 F 3 "~" H 4650 6400 50  0001 C CNN
 	1    4650 6400
 	-1   0    0    1   
@@ -620,7 +620,7 @@ U 1 1 5E5AD872
 P 1900 6400
 F 0 "J7" V 1772 6580 50  0000 L CNN
 F 1 "Conn_01x03" V 1863 6580 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 1900 6400 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1900 6400 50  0001 C CNN
 F 3 "~" H 1900 6400 50  0001 C CNN
 	1    1900 6400
 	0    1    1    0   
@@ -631,7 +631,7 @@ U 1 1 5E5AE2E4
 P 1900 6950
 F 0 "J8" V 1772 7130 50  0000 L CNN
 F 1 "Conn_01x03" V 1863 7130 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 1900 6950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1900 6950 50  0001 C CNN
 F 3 "~" H 1900 6950 50  0001 C CNN
 	1    1900 6950
 	0    1    1    0   

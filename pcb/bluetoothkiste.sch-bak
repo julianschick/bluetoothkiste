@@ -118,7 +118,7 @@ NoConn ~ 3700 4750
 Wire Wire Line
 	750  4900 1200 4900
 Text Label 750  4700 0    50   ~ 0
-LX-TX
+PIN2
 NoConn ~ 1700 4500
 NoConn ~ 1700 4600
 NoConn ~ 1700 4800
@@ -215,7 +215,7 @@ F 3 "" H 750 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 750  4900 0    50   ~ 0
-LX-RX
+PIN3
 Wire Wire Line
 	750  4700 1100 4700
 $Comp
