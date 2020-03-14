@@ -24,7 +24,7 @@ div. | Pinheader (je nach Anbringung der Bluetooth-Module)
 
 ## Wichtige Hinweise
 
-* **Vorsicht**, Thema D-Sub-Verbindung zum LX: Je nachdem, welche Verbindung man benutzt ("PC" oder "Kolibri"), sind RX und LX vertauscht. Diese Platine ist so ausgelegt, dass das LX auf RS232-Pin 2 spricht und auf Pin 3 hört. Außerdem ist, je nach dem, wer da vorher dran rumgefrickelt hat, die D-Sub-Schnittstelle mal Male mal Female.
+* **Vorsicht**, Thema D-Sub-Verbindung zum LX: Je nachdem, welche Verbindung man benutzt ("PC"/"Kolibri"/Adapterkabel vom 5-poligen Binderstecker auf RS232), sind RX und LX vertauscht. Diese Platine ist so ausgelegt, dass das LX auf RS232-Pin 2 spricht und auf Pin 3 hört. Außerdem ist, je nach dem, wer da vorher dran rumgefrickelt hat, die D-Sub-Schnittstelle mal Male mal Female.
 * Die Bluetooth-Module können, wenn sie mit vertikalen Pinheader versehen sind, direkt reingesteckt werden (auf der Platine auch vertikale Pinheader anbringen). Sie sind dann vom Gehäusedeckel etwas vorgespannt. Bei eBay bekommt man i.d.R. Module mit 90° abgewinkelten Pinheader, diese kann man aber einfach umbiegen.
 * Die Stromversorgung der Bluetooth-Module und des FLARM kann zusammengeschaltet werden per Jumper, wenn man nicht getrennt ein- und ausschalten möchte.
 * Das FLARM muss extern abgesichert werden! Intern sind nur die Bluetooth-Module abgesichert.
