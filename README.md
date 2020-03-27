@@ -1,6 +1,8 @@
 # Bluetoothkiste
 Bluetooth-Box für Segelflugzeuge zur Kommunikation zwischen Smartphone (mit beispielsweise XCSoar) und LX (5000/7000/7007) sowie FLARM. LX und FLARM senden über zwei getrennte Bluetooth-Module, werden also als zwei unterschiedliche Serialports auf dem Smartphone sichtbar. Das FLARM wird über den breiten RJ45-Westernstecker an die Box angeschlossen und wird auch über die Box mit Strom versorgt. Das LX wird über die 9-polige D-Sub-Schnittstelle, die meistens mit _PC_ oder _Kolibri_ beschriftet ist, angeschlossen. Eine USB-Buchse kann zusätzlich nach außen gelegt werden, um eine 5V-Stromversorgung im Cockpit zu ermöglichen. Die Datenpins sind nicht angeschlossen.
 
+Die Verbindung zum Flarm kann über Jumper so eingestellt werden, dass keine Daten ans Flarm gesendet werden. Das ist nützlich, wenn man mehrere Bluetooth-Boxen an ein Flarm anschließen will. Die RX- und TX-Leitung zum LX kann per Jumper auf den RS232-Pins 2 und 3 frei konfiguriert werden. Das ist notwendig, da die RX-/TX-Pins vertauscht sind, je nachdem ob man die PC-Schnittstelle (u. U. mit Adapterkabel vom 5-poligen Binderstecker) oder die Kolibri-Schnittstelle verwendet. Im Zweifelsfall durchmessen, auf welchem Pin das Gerät spricht.
+
 ## Teileliste
 
 Mit passenden Artikelbezeichnungen für den Berliner Elektroteilehändler [Segor](https://www.segor.de).
@@ -24,7 +26,7 @@ div. | Pinheader (je nach Anbringung der Bluetooth-Module)
 
 ## Wichtige Hinweise
 
-* **Vorsicht**, Thema D-Sub-Verbindung zum LX: Je nachdem, welche Verbindung man benutzt ("PC"/"Kolibri"/Adapterkabel vom 5-poligen Binderstecker auf RS232), sind RX und LX vertauscht. Diese Platine ist so ausgelegt, dass das LX auf RS232-Pin 2 spricht und auf Pin 3 hört. Außerdem ist, je nach dem, wer da vorher dran rumgefrickelt hat, die D-Sub-Schnittstelle mal Male mal Female.
+* Je nachdem, wer zuletzt am Flugzeug rumgefrickelt hat, ist die D-Sub-Verbindung mal Male mal Female, am besten gleich das richtige Gegenstück auf die Platine löten.
 * Die Bluetooth-Module können, wenn sie mit vertikalen Pinheader versehen sind, direkt reingesteckt werden (auf der Platine auch vertikale Pinheader anbringen). Sie sind dann vom Gehäusedeckel etwas vorgespannt. Bei eBay bekommt man i.d.R. Module mit 90° abgewinkelten Pinheader, diese kann man aber einfach umbiegen.
 * Die Stromversorgung der Bluetooth-Module und des FLARM kann zusammengeschaltet werden per Jumper, wenn man nicht getrennt ein- und ausschalten möchte.
 * Das FLARM muss extern abgesichert werden! Intern sind nur die Bluetooth-Module abgesichert.
