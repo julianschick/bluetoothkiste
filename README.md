@@ -1,4 +1,5 @@
 # Bluetoothkiste
+
 Bluetooth-Box für Segelflugzeuge zur Kommunikation zwischen Smartphone (mit beispielsweise XCSoar) und LX (5000/7000/7007) sowie FLARM. LX und FLARM senden über zwei getrennte Bluetooth-Module, werden also als zwei unterschiedliche Serialports auf dem Smartphone sichtbar. Das FLARM wird über den breiten RJ45-Westernstecker an die Box angeschlossen und wird auch über die Box mit Strom versorgt. Das LX wird über die 9-polige D-Sub-Schnittstelle, die meistens mit _PC_ oder _Kolibri_ beschriftet ist, angeschlossen. Eine USB-Buchse kann zusätzlich nach außen gelegt werden, um eine 5V-Stromversorgung im Cockpit zu ermöglichen. Die Datenpins sind nicht angeschlossen.
 
 Die Verbindung zum Flarm kann über Jumper so eingestellt werden, dass keine Daten ans Flarm gesendet werden. Das ist nützlich, wenn man mehrere Bluetooth-Boxen an ein Flarm anschließen will. Die RX- und TX-Leitung zum LX kann per Jumper auf den RS232-Pins 2 und 3 frei konfiguriert werden. Das ist notwendig, da die RX-/TX-Pins vertauscht sind, je nachdem ob man die PC-Schnittstelle (u. U. mit Adapterkabel vom 5-poligen Binderstecker) oder die Kolibri-Schnittstelle verwendet. Im Zweifelsfall durchmessen, auf welchem Pin das Gerät spricht.
@@ -33,3 +34,12 @@ div. | Pinheader (je nach Anbringung der Bluetooth-Module)
 * Darauf achten, den Schaltregler richtig herum zu montieren. Genauso den RS232-Chip.
 * Darauf achten, die Bluetooth-Module richtig herum einzustecken.
 * Die Bluetooth-Module müssen vor Benutzung per AT-Kommandos auf die richtige Baudrate eingestellt werden (FLARM meist 19200 und LX meist 4800). Name des Bluetoothgeräts und PIN können auch gesetzt werden. Damit man mit dem LX bidirektional kommunizieren kann, muss die Baudrate der PC-Verbindung des LX auf 4800 gesetzt werden. Das LX wirft seine NMEA-Daten immer mit 4800 Baud aus, kann aber mit konfigurierbarer Baudrate mit dem PC sprechen. Da das alles aber über das gleiche Bluetooth-Modul läuft, sollten 4800 Baud eingestellt sein.
+
+## Bilder
+
+Die Bilder zeigen Revision 1.1, die aktuelle Revision 1.2 beeinhaltet zusätzlich die besagten Jumper zum umpatchen der seriellen Verbindungen. Außerdem wurde die bestückte Variante hier und da mal zwischendurch abgelötet, sodass die Leiterbahnen gelitten haben, deshalb die unschönen Brückenkabel ;)
+
+![Unbestückt oben](images/v1.1-blanko-oben.jpg)
+![Unbestückt unten](images/v1.1-blanko-unten.jpg)
+![Bestückt 1](images/v1.1-bestueckt1.jpg)
+![Bestückt 2](images/v1.1-bestueckt2.jpg)
