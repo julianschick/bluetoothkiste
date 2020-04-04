@@ -40,4 +40,4 @@ div. | Pinheader (je nach Anbringung der Bluetooth-Module)
 Die Bilder zeigen Revision 1.1, die aktuelle Revision 1.2 beeinhaltet zusätzlich die besagten Jumper zum umpatchen der seriellen Verbindungen. Außerdem wurde die bestückte Variante hier und da mal zwischendurch abgelötet, sodass die Leiterbahnen gelitten haben, deshalb die unschönen Brückenkabel ;)
 
 
-<img src="images/v1.1-blanko-oben.jpg" alt="Unbestückt oben" height="300"><img src="images/v1.1-blanko-unten.jpg" alt="Unbestückt unten" height="300"><img src="images/v1.1-bestueckt1.jpg" alt="Bestückt 1" height="300"><img src="images/v1.1-bestueckt2.jpg" alt="Bestückt 2" height="300">
+<img src="images/v1.1-blanko-oben.jpg" alt="Unbestückt oben" height="300"> <img src="images/v1.1-blanko-unten.jpg" alt="Unbestückt unten" height="300"> <img src="images/v1.1-bestueckt1.jpg" alt="Bestückt 1" height="300"><img src="images/v1.1-bestueckt2.jpg" alt="Bestückt 2" height="300">
