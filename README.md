@@ -39,6 +39,9 @@ div. | Pinheader (je nach Anbringung der Bluetooth-Module)
 
 Die Bilder zeigen Revision 1.1, die aktuelle Revision 1.2 beeinhaltet zusätzlich die besagten Jumper zum umpatchen der seriellen Verbindungen. Außerdem wurde die bestückte Variante hier und da mal zwischendurch abgelötet, sodass die Leiterbahnen gelitten haben, deshalb die unschönen Brückenkabel ;)
 
+
+<img src="/julianschick/bluetoothkiste/raw/master/images/v1.1-blanko-oben.jpg" alt="Unbestückt oben" width="100">
+
 ![Unbestückt oben](images/v1.1-blanko-oben.jpg)
 ![Unbestückt unten](images/v1.1-blanko-unten.jpg)
 ![Bestückt 1](images/v1.1-bestueckt1.jpg)
