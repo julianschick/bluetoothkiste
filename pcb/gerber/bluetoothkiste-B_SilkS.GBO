@@ -1,14 +1,15 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,5.1.4*
-G04 #@! TF.CreationDate,2019-10-01T21:08:12+02:00*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,5.1.9*
+G04 #@! TF.CreationDate,2021-01-14T22:06:05+01:00*
 G04 #@! TF.ProjectId,bluetoothkiste,626c7565-746f-46f7-9468-6b697374652e,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Legend,Bot*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 5.1.4) date 2019-10-01 21:08:12*
+G04 Created by KiCad (PCBNEW 5.1.9) date 2021-01-14 22:06:05*
 %MOMM*%
 %LPD*%
+G01*
 G04 APERTURE LIST*
 G04 APERTURE END LIST*
 M02*
