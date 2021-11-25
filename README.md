@@ -22,7 +22,7 @@ Anzahl | Beschreibung | Segor-Artikelbezeichnung
 2 | Kondensator 10u, RM 5mm | *10u-R5.0-X7R/25V*
 5 | Kondensator 1u, SMD-Bauform 1206 (3216 metrisch) | *1u0-1206-X7R/50V*
 2 | Diode | *1N 5062*
-2 | Bluetooth-Modul | *Bluetooth-Modul (HC06)* [günstiger bei eBay!]
+2 | Bluetooth-Modul | *Bluetooth-Modul (HC-05/-06 oder ein HC-10-BLE-Modul)* [günstiger bei eBay!]
 div. | Pinheader (je nach Anbringung der Bluetooth-Module)
 
 ## Wichtige Hinweise
