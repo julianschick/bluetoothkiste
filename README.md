@@ -39,7 +39,7 @@ div. | Pinheader (je nach Anbringung der Bluetooth-Module)
 
 <img src="images/v12-blanko-oben.jpg" alt="Unbestückt oben" height="300">
 <img src="images/v12-blanko-unten.jpg" alt="Unbestückt unten" height="300">
-<img src="images/v12-bestueckt-obwn.jpg" alt="Bestückt oben" height="300">
+<img src="images/v12-bestueckt-oben.jpg" alt="Bestückt oben" height="300">
 <img src="images/v12-bestueckt-schraeg.jpg" alt="Bestückt schräg" height="300">
 <img src="images/v12-bestueckt-anschluesse.jpg" alt="Bestückt Anschlüsse" height="300">
 <img src="images/v12-bestueckt-stromanschluss.jpg" alt="Bestückt Stromanschluss" height="300">
