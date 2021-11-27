@@ -15,7 +15,7 @@ Anzahl | Beschreibung | Segor-Artikelbezeichnung
 1 | RJ45-Buchse für Printmontage | *8P8C-BU/S 14mm*
 1 | RS232-Converter | *MAX 232 N*
 1 | D-Sub Buchse/Stecker 9-polig, Printmontage 90°, Abstand Pinreihe zu Steckerfläche 10mm | *DS09F-90°-10mm*/*DS09M-90°-10mm*
-1 | Schaltregler | *R-78 5.0-1.0*
+1 | Schaltregler | *R-78 5.0-1.0* oder (günstiger) *R-78E5.0-1.0*
 1 | Sicherungshalter für Rundsicherungen, RM 5mm | *RSI-Halter/LP*
 1 | Rundsicherung, RM 5mm | *RSI 2,0 A F oder RSI 2,0 A T (flink/träge)*
 1 | Schraubklemmen, RM 5mm | *ARK 3 (RM 5mm)*
@@ -28,7 +28,7 @@ div. | Pinheader (je nach Anbringung der Bluetooth-Module)
 ## Wichtige Hinweise
 
 * Je nachdem, wer zuletzt am Flugzeug rumgefrickelt hat, ist die D-Sub-Verbindung mal Male mal Female, am besten gleich das richtige Gegenstück auf die Platine löten.
-* Die Bluetooth-Module können, wenn sie mit vertikalen Pinheader versehen sind, direkt reingesteckt werden (auf der Platine auch vertikale Pinheader anbringen). Sie sind dann vom Gehäusedeckel etwas vorgespannt. Bei eBay bekommt man i.d.R. Module mit 90° abgewinkelten Pinheader, diese kann man aber einfach umbiegen.
+* Die Bluetooth-Module können, wenn sie mit vertikalen Pinheader versehen sind, direkt reingesteckt werden (auf der Platine auch vertikale Pinheader anbringen). Sie sind dann vom Gehäusedeckel etwas vorgespannt. Bei eBay bekommt man i.d.R. Module mit 90° abgewinkelten Pinheader, diese kann man aber einfach umbiegen. Man kann sie auch direkt festlöten (ohne Female-Pinheader auf der Platine). Dabei stehen die Stifte nach unten weit aus der Platine heraus. Wenn man diese nicht abzwickt, kann man auch im Nachhinein noch per AT-Kommandos die Bluetooth-Module umkonfigurieren.
 * Die Stromversorgung der Bluetooth-Module und des FLARM kann zusammengeschaltet werden per Jumper, wenn man nicht getrennt ein- und ausschalten möchte.
 * Das FLARM muss extern abgesichert werden! Intern sind nur die Bluetooth-Module abgesichert.
 * Darauf achten, den Schaltregler richtig herum zu montieren. Genauso den RS232-Chip.
@@ -37,7 +37,11 @@ div. | Pinheader (je nach Anbringung der Bluetooth-Module)
 
 ## Bilder
 
-Die Bilder zeigen Revision 1.1, die aktuelle Revision 1.2 beeinhaltet zusätzlich die besagten Jumper zum umpatchen der seriellen Verbindungen. Außerdem wurde die bestückte Variante hier und da mal zwischendurch abgelötet, sodass die Leiterbahnen gelitten haben, deshalb die unschönen Brückenkabel ;)
+<img src="images/v12-blanko-oben.jpg" alt="Unbestückt oben" height="300">
+<img src="images/v12-blanko-unten.jpg" alt="Unbestückt unten" height="300">
+<img src="images/v12-bestueckt-obwn.jpg" alt="Bestückt oben" height="300">
+<img src="images/v12-bestueckt-schraeg.jpg" alt="Bestückt schräg" height="300">
+<img src="images/v12-bestueckt-anschluesse.jpg" alt="Bestückt Anschlüsse" height="300">
+<img src="images/v12-bestueckt-stromanschluss.jpg" alt="Bestückt Stromanschluss" height="300">
+<img src="images/v12-bestueckt-unten.jpg" alt="Bestückt unten" height="300">
 
-
-<img src="images/v1.1-blanko-oben.jpg" alt="Unbestückt oben" height="300"> <img src="images/v1.1-blanko-unten.jpg" alt="Unbestückt unten" height="300"> <img src="images/v1.1-bestueckt1.jpg" alt="Bestückt 1" height="300"><img src="images/v1.1-bestueckt2.jpg" alt="Bestückt 2" height="300">
