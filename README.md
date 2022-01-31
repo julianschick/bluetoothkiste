@@ -49,4 +49,7 @@ div. | Pinheader (je nach Anbringung der Bluetooth-Module)
 
 ## Gehäuse
 <img src="images/case.jpg" alt="Gehäuse" height="300">
+<img src="images/case-oben.png" alt="Oberer Teil des Gehäuses im CAD" height="300">
+<img src="images/case-unten.png" alt="Unterer Teil des Gehäuses im CAD" height="300">
+<img src="images/case-unten-platine.png" alt="Unterer Teil des Gehäuses im CAD mit Modell der Platine" height="300">
 
