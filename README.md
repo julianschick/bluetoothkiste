@@ -4,6 +4,8 @@ Bluetooth-Box für Segelflugzeuge zur Kommunikation zwischen Smartphone (mit bei
 
 Die Verbindung zum Flarm kann über Jumper so eingestellt werden, dass keine Daten ans Flarm gesendet werden. Das ist nützlich, wenn man mehrere Bluetooth-Boxen an ein Flarm anschließen will. Die RX- und TX-Leitung zum LX kann per Jumper auf den RS232-Pins 2 und 3 frei konfiguriert werden. Das ist notwendig, da die RX-/TX-Pins vertauscht sind, je nachdem ob man die PC-Schnittstelle (u. U. mit Adapterkabel vom 5-poligen Binderstecker) oder die Kolibri-Schnittstelle verwendet. Im Zweifelsfall durchmessen, auf welchem Pin das Gerät spricht.
 
+Ein Gehäuse, das mit dem 3D-Drucker ausgedruckt werden kann, ist ebenfalls im Repository zu finden. Bilder siehe unten.
+
 ## Teileliste
 
 Mit passenden Artikelbezeichnungen für den Berliner Elektroteilehändler [Segor](https://www.segor.de).
@@ -44,4 +46,7 @@ div. | Pinheader (je nach Anbringung der Bluetooth-Module)
 <img src="images/v12-bestueckt-anschluesse.jpg" alt="Bestückt Anschlüsse" height="300">
 <img src="images/v12-bestueckt-stromanschluss.jpg" alt="Bestückt Stromanschluss" height="300">
 <img src="images/v12-bestueckt-unten.jpg" alt="Bestückt unten" height="300">
+
+## Gehäuse
+<img src="images/case.jpg" alt="Gehäuse" height="300">
 
